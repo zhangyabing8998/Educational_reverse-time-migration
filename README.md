@@ -8,3 +8,7 @@ My code works as a tool for seismologists to quickly understand how RTM imaging 
 (2) velocity model (true vs. smoothed)
 
 (3) diagonal Hessian/source illumination (with vs. without)
+
+Note that this code only gives you a flavor about RTM fundamental. Be careful if you use this code for your formal publications.
+
+Contact chenglongduan.nju@gmail.com for any questions.
