@@ -5,7 +5,7 @@ My code works as a tool for seismologists to quickly understand how RTM imaging 
 
 (1) back-propagation solver (reconstruction vs. adjoint)
 
-(Note that the classic RTM uses reconstruction to get the receiver wavefield, which solves a boundary value problem. Nowadays, if we use the adjoint wave equation to get the receiver wavefield, I prefer to call it "adjoint migration" or "adjoint imaging".)
+(Note that the classic RTM uses reconstruction to get the receiver wavefield, which solves a boundary value problem. Nowadays, if we use the adjoint wave equation to get the receiver wavefield, I prefer to call it "adjoint migration" or "adjoint imaging", instead of RTM.)
 
 (2) velocity model (true vs. smoothed)
 
