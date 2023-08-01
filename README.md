@@ -12,6 +12,6 @@ However, if we use the adjoint wave equation to get the receiver wavefield, we c
 
 (3) diagonal Hessian/source illumination (with vs. without)
 
-Note that this code only gives you a flavor about RTM fundamental. Be careful if you use this code for your formal publications.
+The acoustic wave equation is a second-time-order PDE. The absorbing boundary uses exponential damping method. This code can give you a flavor about RTM fundamental. More detailed implementations (e.g., CPML boundary, first-order velocity-pressure scheme, HPC parallel code) are out-of-scope of this code.
 
 Contact chenglongduan.nju@gmail.com for any questions.
