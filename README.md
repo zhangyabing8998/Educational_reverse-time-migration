@@ -5,7 +5,7 @@ My code works as a tool for seismologists to quickly understand how RTM imaging 
 
 (1) back-propagation solver (reconstruction vs. adjoint)
 
-(Note that the classic RTM uses reconstruction to "recover" the receiver wavefield, which time-reversely predict the previous time step using the current time step wavefield (a boundary value problem). This is where the name RTM comes from.
+(Note that the classic RTM uses reconstruction to compute the receiver wavefield, which time-reversely 'recovers' the previous time step using the current time step wavefield (a boundary value problem). This is where the name RTM comes from.
 However, if we use the adjoint wave equation to get the receiver wavefield, we compute the wavefield normally from 0 to T. The time-reverse concept in this case is indicated from the adjoint source data. Thus, I prefer to call it "adjoint migration" or "adjoint imaging" instead of RTM.)
 
 (2) velocity model (true vs. smoothed)
